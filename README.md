@@ -5,6 +5,7 @@ To Run the App please go to the terminal of your IDE and type:
 
          npm run dev | yarn run dev
          
+         
 1.The First page when the application Loaded is the Login Page, I use firebase backend to store all the data and authentication for the Login Process
 
 2. If you do not have an account yet. Press the "Don't Have An Account?" button to navigate to the Register Page
