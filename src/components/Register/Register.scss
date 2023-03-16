@@ -1,0 +1,75 @@
+$primaryColor:  rgba(80, 39, 245, 0.8);
+
+
+.Register__container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    color: $primaryColor;
+    form{
+        background-color: #fff;
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 300;
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 30%;
+        border: 1px solid ;
+        border-radius: 15px;
+        outline: none;
+        min-width: 500px;
+        input{
+            padding-left: 1em;
+            width: 100%;
+            height: 3em;
+            border: 1px solid lightgray ;
+            border-radius: 10px;
+        }
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        h4{
+            display: block;
+            font-size: 20px;
+            
+        }
+        #altBtn{
+            width: 15em;
+            height: 3em;
+            border: 1px solid transparent ;
+            border-radius: 10px;
+            color: $primaryColor;
+            background-color: #fff; 
+            cursor: pointer;
+        }
+        .submit__box{
+            display: flex;
+            flex-direction: row;
+            margin: .5em;
+            text-align: center;
+            align-items: center;
+            input{
+                width: 1em;
+                margin-right: .5em ;
+                accent-color: $primaryColor;
+            }
+            h4{
+                font-size: .6em;
+            }
+        }
+        #mainBtn{
+            margin-left: auto;
+            width: 8em;
+            height: 3em;
+            border: 1px solid ;
+            border-radius: 10px;
+            background-color: $primaryColor;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    
+}

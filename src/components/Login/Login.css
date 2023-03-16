@@ -1,0 +1,69 @@
+.Login__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  color: rgba(80, 39, 245, 0.8);
+}
+.Login__container form {
+  background-color: #fff;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 30%;
+  border: 1px solid;
+  border-radius: 15px;
+  outline: none;
+  min-width: 500px;
+}
+.Login__container form input {
+  padding-left: 1em;
+  width: 100%;
+  height: 3em;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.Login__container form h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.Login__container form h4 {
+  display: block;
+  font-size: 20px;
+}
+.Login__container form #altBtn {
+  width: 15em;
+  height: 3em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: rgba(80, 39, 245, 0.8);
+  background-color: #fff;
+  cursor: pointer;
+}
+.Login__container form .submit__box {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  text-align: center;
+  align-items: center;
+}
+.Login__container form .submit__box input {
+  width: 1em;
+  margin-right: 0.5em;
+  accent-color: rgba(80, 39, 245, 0.8);
+}
+.Login__container form .submit__box h4 {
+  font-size: 0.6em;
+}
+.Login__container #mainBtn {
+  width: 8em;
+  height: 3em;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgba(80, 39, 245, 0.8);
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=Login.css.map */
