@@ -68,7 +68,7 @@ const Profile = () => {
         <h4>Full name:</h4>
         <input
           type="text"
-          placeholder="Name"
+          placeholder="Full Name"
           onChange={(e) => setFullname(e.target.value)}
           required
         />
@@ -83,7 +83,7 @@ const Profile = () => {
 
         <input
           type="text"
-          placeholder="URL"
+          placeholder="https://www.google.com/your-image-URL"
           onChange={(e) => setProfilePic(e.target.value)}
           required
         />
