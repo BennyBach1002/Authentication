@@ -1,7 +1,8 @@
 # authentication
  
 
-**To Run the App please go to the terminal of your IDE and type: 
+To Run the App please go to the terminal of your IDE and type: 
+
          npm run dev | yarn run dev
          
 1.The First page when the application Loaded is the Login Page, I use firebase backend to store all the data and authentication for the Login Process
