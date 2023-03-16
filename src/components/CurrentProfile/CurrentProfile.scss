@@ -1,13 +1,27 @@
 $primaryColor:  rgba(80, 39, 245, 0.8);
 
-
-.Login__container{
+.cProfile__container{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 2rem;
     color: $primaryColor;
+    .profile_options{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+    }
+    button{
+        width: 15em;
+        height: 3em;
+        border: 1px solid transparent ;
+        border-radius: 10px;
+        color: #fff;
+        background-color: $primaryColor; 
+        cursor: pointer;
+    }
     form{
         background-color: #fff;
         display: block;
@@ -26,6 +40,17 @@ $primaryColor:  rgba(80, 39, 245, 0.8);
             height: 3em;
             border: 1px solid lightgray ;
             border-radius: 10px;
+            object-fit: contain;
+        }
+        .picContainer{
+            width:100%;
+            height:300px;
+            border: 1px solid lightgray ;
+            border-radius: 10px;
+            img{
+                width:100%;
+                height:100%;
+            }
         }
         h2{
             font-size: 30px;
@@ -47,15 +72,10 @@ $primaryColor:  rgba(80, 39, 245, 0.8);
         }
         .submit__box{
             display: flex;
-            justify-content: space-between;
             flex-direction: row;
             margin: .5em;
             text-align: center;
             align-items: center;
-            .show_password{
-                display: flex;
-                align-items: center;
-            }
             input{
                 width: 1em;
                 margin-right: .5em ;
@@ -65,9 +85,9 @@ $primaryColor:  rgba(80, 39, 245, 0.8);
                 font-size: .6em;
             }
         }
-    
     }
     #mainBtn{
+        margin-left: auto;
         width: 8em;
         height: 3em;
         border: 1px solid ;
@@ -76,4 +96,5 @@ $primaryColor:  rgba(80, 39, 245, 0.8);
         color: #fff;
         cursor: pointer;
     }
+    
 }

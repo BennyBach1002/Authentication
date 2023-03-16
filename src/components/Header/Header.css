@@ -5,19 +5,5 @@
   top: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: #fff;
-}
-.Header .list__container {
-  display: flex;
-}
-.Header .list__container h4 {
-  font-size: 5px;
-  list-style: none;
-  margin-top: 1em;
-  margin-left: 0.5em;
-  color: rosybrown;
-  font-size: 25px;
-}
-.Header .list__container h4:hover {
-  cursor: pointer;
-  text-decoration: underline;
+  justify-content: center;
 }/*# sourceMappingURL=Header.css.map */

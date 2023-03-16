@@ -3,10 +3,25 @@ $primaryColor:  rgba(80, 39, 245, 0.8);
 .Profile__container{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 2rem;
     color: $primaryColor;
+    .profile_options{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+    }
+    button{
+        width: 15em;
+        height: 3em;
+        border: 1px solid transparent ;
+        border-radius: 10px;
+        color: #fff;
+        background-color: $primaryColor; 
+        cursor: pointer;
+    }
     form{
         background-color: #fff;
         display: block;

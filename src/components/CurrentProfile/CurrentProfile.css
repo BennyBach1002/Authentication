@@ -1,12 +1,27 @@
-.Login__container {
+.cProfile__container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 2rem;
   color: rgba(80, 39, 245, 0.8);
 }
-.Login__container form {
+.cProfile__container .profile_options {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.cProfile__container button {
+  width: 15em;
+  height: 3em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgba(80, 39, 245, 0.8);
+  cursor: pointer;
+}
+.cProfile__container form {
   background-color: #fff;
   display: block;
   font-size: 1.6rem;
@@ -19,22 +34,34 @@
   outline: none;
   min-width: 500px;
 }
-.Login__container form input {
+.cProfile__container form input {
   padding-left: 1em;
   width: 100%;
   height: 3em;
   border: 1px solid lightgray;
   border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
-.Login__container form h2 {
+.cProfile__container form .picContainer {
+  width: 100%;
+  height: 300px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.cProfile__container form .picContainer img {
+  width: 100%;
+  height: 100%;
+}
+.cProfile__container form h2 {
   font-size: 30px;
   text-align: center;
 }
-.Login__container form h4 {
+.cProfile__container form h4 {
   display: block;
   font-size: 20px;
 }
-.Login__container form #altBtn {
+.cProfile__container form #altBtn {
   width: 15em;
   height: 3em;
   border: 1px solid transparent;
@@ -43,27 +70,23 @@
   background-color: #fff;
   cursor: pointer;
 }
-.Login__container form .submit__box {
+.cProfile__container form .submit__box {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   margin: 0.5em;
   text-align: center;
   align-items: center;
 }
-.Login__container form .submit__box .show_password {
-  display: flex;
-  align-items: center;
-}
-.Login__container form .submit__box input {
+.cProfile__container form .submit__box input {
   width: 1em;
   margin-right: 0.5em;
   accent-color: rgba(80, 39, 245, 0.8);
 }
-.Login__container form .submit__box h4 {
+.cProfile__container form .submit__box h4 {
   font-size: 0.6em;
 }
-.Login__container #mainBtn {
+.cProfile__container #mainBtn {
+  margin-left: auto;
   width: 8em;
   height: 3em;
   border: 1px solid;
@@ -71,4 +94,4 @@
   background-color: rgba(80, 39, 245, 0.8);
   color: #fff;
   cursor: pointer;
-}/*# sourceMappingURL=Login.css.map */
+}/*# sourceMappingURL=CurrentProfile.css.map */
