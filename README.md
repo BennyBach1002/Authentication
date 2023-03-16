@@ -25,8 +25,11 @@ To Run the App please go to the terminal of your IDE and type:
 Programs that I use:
 
 -Vite instead of create-react-app, In my opinion Vite runs alot faster
+
 -SCSS
+
 -React-Router to navigate between pages
+
 -Firebase as the backend
 
 *As per requirement I do not want to make the application too complicated which brings me to building a simple design which highlight the application's functions.
