@@ -91,7 +91,8 @@ const Profile = () => {
         <h4>Phone Number:</h4>
         <input
           type="tel"
-          placeholder="+84"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder="xxx xxx xxxx"
           onChange={(e) => setPhoneNum(e.target.value)}
           required
         />
